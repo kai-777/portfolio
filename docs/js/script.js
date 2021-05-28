@@ -17,7 +17,7 @@ $(function () {
     return false;
   });
 
-	$(document).one('click', '.like-review', function(e) {
+	$(document).one('click', '.like-review', function() {
 		$(this).html('<i class="fa fa-heart" aria-hidden="true"></i> You liked this');
 		$(this).children('.fa-heart').addClass('animate-like');
 	});
