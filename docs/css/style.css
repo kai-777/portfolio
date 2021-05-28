@@ -308,7 +308,8 @@ li {
     padding: 20px;
   }
 
-  .like-content {
+}
+ .like-content {
     display: inline-block;
     width: 100%;
     margin: 40px 0 0;
@@ -355,4 +356,4 @@ li {
   100% { transform: scale(1); }
 }
 
-}
+
